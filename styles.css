@@ -7,7 +7,7 @@ body {
     background: url("img/image2.jpeg") no-repeat center center fixed;
     background-size: 100%;
     animation-name: switch;
-    animation-duration: 9s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
    }
 
@@ -229,12 +229,16 @@ body {
           background: url("img/image0.jpeg") no-repeat center center fixed;
           background-size: 100%;
         }
-        33%{
+        30%{
           background: url("img/image1.jpeg") no-repeat center center fixed;
           background-size: 100%;
         }
-        66%{
-          background: url("img/image2-portrait.jpeg") no-repeat center center fixed;
+        60%{
+          background: url("img/image2-portrait.png") no-repeat center center fixed;
+          background-size: 60%;
+        }
+        90%, 99.9%{
+          background: url("img/image0.jpeg") no-repeat center center fixed;
           background-size: 100%;
         }
 }
