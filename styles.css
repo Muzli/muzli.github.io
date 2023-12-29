@@ -234,11 +234,7 @@ body {
           background-size: 100%;
         }
         66%{
-          background: url("img/image2.jpeg") no-repeat center center fixed;
-          background-size: 100%;
-        }
-        99%{
-          background: url("img/image0.jpeg") no-repeat center center fixed;
+          background: url("img/image2-new.jpeg") no-repeat center center fixed;
           background-size: 100%;
         }
 }
