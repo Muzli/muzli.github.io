@@ -4,11 +4,11 @@ body {
     background: #000;
     overflow: hidden;
     font-family: Tahoma, sans-serif;
-    background: url("img/image0.jpeg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url("img/image2.jpeg") no-repeat center center fixed;
+    background-size: 100%;
+    animation-name: switch;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
    }
 
 @media (min-width: 659px) {
@@ -223,4 +223,31 @@ body {
     80%, 99.9% {
       margin-top: 30%;
       margin-left: 80%; } }
+
+@keyframes switch{
+        0%{
+          background: url("img/image0.jpeg") no-repeat center center fixed;
+          background-size: 100%;
+        }
+        33%{
+          background: url("img/image1.jpeg") no-repeat center center fixed;
+          background-size: 100%;
+        }
+        66%{
+          background: url("img/image2.jpeg") no-repeat center center fixed;
+          background-size: 100%;
+        }
+}
+
+@keyframes fade{
+  0%{
+    opacity: 1;
+  }
+  90%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
   
